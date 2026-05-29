@@ -4,25 +4,25 @@ import { Mail, MessageSquare } from 'lucide-react';
 export default function Team() {
   const teamMembers = [
     {
-      name: "Brigitte Schwartz",
+      name: "Brigitte Watson",
       role: "Principal Interior Architect",
-      bio: "Master of structural spatial flows with over a decade of shaping luxury residential blueprints across Europe.",
+      bio: "Master of structural spatial flows with over a decade of shaping luxury residential blueprints.",
       image: "/team1.jpg" 
     },
     {
-      name: "Alfredo Torres",
+      name: "Alan Torres",
       role: "Lead Furniture Designer",
       bio: "Specializes in sourcing and crafting custom, sustainable timber installations and bespoke minimalist upholstery.",
       image: "/team3.jpg" 
     },
     {
-      name: "Adora Montminy",
+      name: "Adora Holmes",
       role: "Material & Texture Curator",
       bio: "Expertise in organic stones, high-end linens, and complex micro-cement compositions that evoke understated luxury.",
       image: "/team2.jpg" 
     },
     {
-      name: "Morgan Maxwell",
+      name: "James Maxwell",
       role: "Architectural Lighting Engineer",
       bio: "Designing micro-recessed layout points and ambient lighting schemes that alter the perception of physical space.",
       image: "/team4.jpg" 
@@ -30,17 +30,17 @@ export default function Team() {
   ];
 
   return (
-    <section className="w-full bg-neutral-950 py-24 lg:py-32 border-t border-white/5">
+    <section id="team" className="w-full bg-neutral-950 py-24 lg:py-32 border-t border-white/5">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         
         {/* Section heading */}
         <div className="space-y-4 mb-16 lg:mb-20">
           <div className="flex items-center gap-3">
             <span className="h-[1px] w-8 bg-gold-accent" />
-            <p className="text-xs uppercase tracking-[0.25em] font-medium text-gold-accent">The Minds Behind Timmerman</p>
+            <p className="text-xs uppercase tracking-[0.25em] font-medium text-gold-accent">The Minds Behind VelvetHaus</p>
           </div>
           <h2 className="font-serif text-4xl sm:text-5xl font-light tracking-wide text-white">
-            Meet Our Studio <span className="italic font-normal text-gray-300">Collective</span>
+            Meet Our Team <span className="italic font-normal text-gray-300">Collective</span>
           </h2>
         </div>
 

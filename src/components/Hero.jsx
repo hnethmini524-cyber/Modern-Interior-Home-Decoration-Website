@@ -17,7 +17,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative h-[95vh] w-full bg-neutral-950 overflow-hidden flex items-end">
+    <section id="home" className="relative h-[95vh] w-full bg-neutral-950 overflow-hidden flex items-end">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-10000 scale-105 animate-subtle-zoom"
         style={{ backgroundImage: `url('/hero.png')` }}
@@ -57,7 +57,7 @@ export default function Hero() {
           </motion.p>
 
           <motion.div variants={itemVariants} className="pt-4">
-            <button className="group relative overflow-hidden bg-white text-neutral-950 px-8 py-4 rounded-full text-xs uppercase font-medium tracking-[0.2em] flex items-center gap-2 transition-all duration-300 hover:pr-10 shadow-xl">
+            <button className="group relative overflow-hidden bg-gold-accent text-neutral-950 px-8 py-4 rounded-full text-xs uppercase font-medium tracking-[0.2em] flex items-center gap-2 transition-all duration-300 hover:pr-10 shadow-xl">
               Explore Our Portfolio
               <ArrowUpRight size={14} className="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
             </button>
@@ -72,7 +72,7 @@ export default function Hero() {
         >
           <div className="space-y-1">
             <p className="font-serif text-2xl text-white italic">01 / 04</p>
-            <p className="text-[10px] uppercase tracking-widest text-gray-400">Luxury Coastal Estate Project</p>
+            <p className="text-[10px] uppercase tracking-widest text-gray-400">Luxury Home Decoration Project</p>
           </div>
         </motion.div>
       </div>

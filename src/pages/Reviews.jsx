@@ -7,22 +7,22 @@ export default function Reviews() {
 
   const reviewsData = [
     {
-      quote: "Timmerman completely altered how we experience our home. Their spatial vision transformed our dark, narrow kitchen footprint into a sweeping, sun-drenched architectural marvel that functions beautifully.",
-      author: "Elena Rostova",
-      project: "The Obsidian Culinary Suite Project",
+      quote: "VelvetHaus completely altered how we experience our home. Their spatial vision transformed our dark, narrow kitchen footprint into a sweeping, sun-drenched architectural marvel that functions beautifully.",
+      author: "Elena Watson",
+      project: "Forest View Living Room",
       location: "Colombo"
     },
     {
       quote: "Absolute masters of material balance. The execution of the raw concrete walls paired with premium smoked walnut custom joinery brought an incredible sense of quiet luxury to our estate.",
-      author: "Marcus Vance",
+      author: "Alan Vance",
       project: "Linear Timber Pavilion Living",
-      location: "Malibu"
+      location: "Kandy"
     },
     {
-      quote: "Their focus on custom lighting architecture is what sets them apart. At night, our studio transforms into a striking sanctuary. It feels like living inside a modern high-end art gallery layout.",
-      author: "Sora Takahashi",
-      project: "Sovereign Concrete Minimalism",
-      location: "Tokyo"
+      quote: "Their focus on custom lighting architecture is what sets them apart. At night, our living room transforms into a striking sanctuary. It feels like living inside a modern high-end art gallery layout.",
+      author: "Sora Grace",
+      project: "Minimalist Living Room",
+      location: "Colombo"
     }
   ];
 
@@ -35,7 +35,7 @@ export default function Reviews() {
   };
 
   return (
-    <section className="w-full bg-neutral-950 py-24 lg:py-32 border-t border-white/5 relative overflow-hidden">
+    <section id="reviews" className="w-full bg-neutral-950 py-24 lg:py-32 border-t border-white/5 relative overflow-hidden">
       {/* Decorative structure */}
       <div className="absolute top-1/2 left-[-10%] w-[300px] h-[300px] bg-gold-accent/5 rounded-full blur-[120px] pointer-events-none" />
       

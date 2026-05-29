@@ -13,18 +13,18 @@ export default function Services() {
       number: "02",
       title: "Bespoke Furniture Curation",
       description: "Sourcing masterfully produced, high-end materials, artisanal accent structures, and exclusive custom upholstery design.",
-      image: "/living-room.png"
+      image: "/library.png"
     },
     {
       number: "03",
       title: "Luminance & Lighting Layouts",
       description: "Engineering advanced ambient atmospheres, recessed structural light points, and geometric architectural light mapping.",
-      image: "/library.png"
+      image: "/living-room.png"
     }
   ];
 
   return (
-    <section className="w-full bg-neutral-950 py-24 lg:py-32 border-t border-white/5">
+    <section id="services" className="w-full bg-neutral-950 py-24 lg:py-32 border-t border-white/5">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 lg:mb-20 gap-6">

@@ -6,11 +6,12 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Home', href: '#' },
-    { name: 'Services', href: '#' },
-    { name: 'About Us', href: '#' },
-    { name: 'Portfolio', href: '#' },
-    { name: 'Contact', href: '#' }
+    { name: 'Home', href: '#home' },
+    { name: 'About Us', href: '#about' },
+    { name: 'Services', href: '#services' },
+    { name: 'Portfolio', href: '#portfolio' },
+    { name: 'Our Team', href: '#team' },
+    { name: 'Contact', href: '#footer' }
   ];
 
   return (
@@ -23,7 +24,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between border-b border-white/10 pb-4">
         {/* Brand identity */}
         <a href="#" className="font-serif text-xl md:text-2xl font-medium tracking-widest text-white uppercase">
-          Timmerman <span className="font-light text-gold-accent">Studio</span>
+          VelvetHaus <span className="font-light text-gold-accent"> Interiors</span>
         </a>
 
         {/* Desktop links */}
@@ -41,7 +42,7 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:block">
-          <button className="border border-white/20 rounded-full px-6 py-2 text-xs uppercase tracking-widest text-white hover:bg-white hover:text-black transition-all duration-300">
+          <button className="bg-gold-accent border border-white/20 rounded-full px-6 py-2 text-xs uppercase tracking-widest text-black hover:bg-white hover:text-black transition-all duration-300">
             Enquire Now
           </button>
         </div>

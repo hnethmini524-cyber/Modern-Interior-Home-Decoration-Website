@@ -6,3 +6,7 @@
   --font-sans: 'Plus Jakarta Sans', sans-serif;
   --color-gold-accent: #C5A880;
 }
+
+html {
+  scroll-behavior: smooth;
+}

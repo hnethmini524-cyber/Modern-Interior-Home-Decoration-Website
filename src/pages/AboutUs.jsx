@@ -3,14 +3,14 @@ import { Award, Compass, Layers, Sparkles } from 'lucide-react';
 
 export default function AboutUs() {
   const metrics = [
-    { icon: <Award size={20} className="text-gold-accent" />, value: "12+", label: "Years Premium Design Expertise" },
-    { icon: <Layers size={20} className="text-gold-accent" />, value: "340+", label: "Bespoke Residences Realized" },
-    { icon: <Compass size={20} className="text-gold-accent" />, value: "15+", label: "International Design Awards" },
+    { icon: <Award size={20} className="text-gold-accent" />, value: "10+", label: "Years Premium Design Expertise" },
+    { icon: <Layers size={20} className="text-gold-accent" />, value: "200+", label: "Bespoke Residences Realized" },
+    { icon: <Compass size={20} className="text-gold-accent" />, value: "8+", label: "Design Awards" },
     { icon: <Sparkles size={20} className="text-gold-accent" />, value: "100%", label: "Client Vision Satisfaction" }
   ];
 
   return (
-    <section className="relative w-full bg-neutral-950 text-white py-24 lg:py-32 overflow-hidden">
+    <section id="about" className="relative w-full bg-neutral-950 text-white py-24 lg:py-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12 grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
         
         {/* Left side: Content & dynamic grid metrics */}
@@ -18,7 +18,7 @@ export default function AboutUs() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <span className="h-[1px] w-8 bg-gold-accent" />
-              <p className="text-xs uppercase tracking-[0.25em] font-medium text-gold-accent">The Studio Narrative</p>
+              <p className="text-xs uppercase tracking-[0.25em] font-medium text-gold-accent">The VelvetHaus Narrative</p>
             </div>
             <h2 className="font-serif text-4xl sm:text-5xl font-light leading-tight tracking-wide">
               Crafting Spaces with <br />
@@ -58,7 +58,7 @@ export default function AboutUs() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
             className="col-span-7 h-full rounded-[2.5rem] overflow-hidden bg-cover bg-center shadow-2xl border border-white/5"
-            style={{ backgroundImage: `url('/kitchen.png')` }} 
+            style={{ backgroundImage: `url('/living-room.png')` }} 
           />
           <div className="col-span-5 grid grid-rows-2 gap-4 h-full">
             <motion.div 
@@ -67,7 +67,7 @@ export default function AboutUs() {
               viewport={{ once: true }}
               transition={{ delay: 0.2, duration: 0.8 }}
               className="rounded-[2rem] overflow-hidden bg-cover bg-center border border-white/5"
-              style={{ backgroundImage: `url('/living-room.png')` }}
+              style={{ backgroundImage: `url('/kitchen.png')` }}
             />
             <motion.div 
               initial={{ opacity: 0, y: 20 }}

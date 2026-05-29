@@ -12,7 +12,7 @@ export default function Portfolio() {
   const projectsData = [
     {
       id: 1,
-      title: "The Obsidian Culinary Suite",
+      title: "Luxury Timber Kitchen",
       category: "Kitchen",
       location: "Colombo, LK",
       year: "2026",
@@ -20,43 +20,43 @@ export default function Portfolio() {
     },
     {
       id: 2,
-      title: "Walnut Slate Walk-In Lounge",
-      category: "Wardrobe",
-      location: "Downing St, UK",
+      title: "Forest View Living Room",
+      category: "Living Room",
+      location: "Kandy, LK",
       year: "2025",
       image: "/living-room.png"
     },
     {
       id: 3,
-      title: "Sovereign Concrete Minimalism",
-      category: "Minimalist",
-      location: "Malibu, USA",
+      title: "Luxury Walk-In Wardrobe",
+      category: "Wardrobe",
+      location: "Colombo, LK",
       year: "2026",
-      image: "/hero.png"
+      image: "/wardrobe.png"
     },
     {
       id: 4,
-      title: "Monolithic Quartz Island Studio",
+      title: "Modern Dark Grey Kitchen",
       category: "Kitchen",
       location: "Kandy, LK",
       year: "2026",
-      image: "/kitchen.png"
+      image: "/kitchen2.png"
     },
     {
       id: 5,
-      title: "Linear Timber Pavilion Living",
+      title: "Minimalist Living Room",
       category: "Living Room",
-      location: "Tokyo, JP",
+      location: "Nugegoda, LK",
       year: "2025",
-      image: "/living-room.png"
+      image: "/living-room2.png"
     },
     {
       id: 6,
-      title: "The Smoked Oak Wardrobe Space",
-      category: "Wardrobe",
-      location: "Milan, IT",
+      title: "Garden View Open Library",
+      category: "Minimalist",
+      location: "Colombo, LK",
       year: "2026",
-      image: "/library.png"
+      image: "/library2.png"
     }
   ];
 
@@ -65,7 +65,7 @@ export default function Portfolio() {
     : projectsData.filter(p => p.category === activeFilter);
 
   return (
-    <section className="w-full bg-neutral-950 py-24 lg:py-32 border-t border-white/5">
+    <section id="portfolio" className="w-full bg-neutral-950 py-24 lg:py-32 border-t border-white/5">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         
         <div className="flex flex-col space-y-4 mb-16">
@@ -157,7 +157,7 @@ export default function Portfolio() {
                   <div className="space-y-4 border-t border-b border-white/10 py-6 text-sm text-gray-400 font-light">
                     <div className="flex justify-between"><span className="text-gray-500">Location</span><span>{selectedProject.location}</span></div>
                     <div className="flex justify-between"><span className="text-gray-500">Completed</span><span>{selectedProject.year}</span></div>
-                    <div className="flex justify-between"><span className="text-gray-500">Design Studio</span><span>Timmerman Private Lab</span></div>
+                    <div className="flex justify-between"><span className="text-gray-500">Design Studio</span><span>VelvetHaus Interiors Lab</span></div>
                   </div>
 
                   <p className="text-sm text-gray-400 font-light leading-relaxed">
