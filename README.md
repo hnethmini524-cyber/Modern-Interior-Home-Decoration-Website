@@ -3,7 +3,7 @@
 A modern luxury interior design website crafted with elegant UI/UX principles,
 immersive visuals, smooth layouts, and responsive frontend architecture.
 
-🌐 Live Demo: [[View Website](https://velvethaus.netlify.app/)](#)
+🌐 Live Demo: [[View Website](https://velvethaus.netlify.app/)]
 
 ## 📸 Application Screenshot
 
