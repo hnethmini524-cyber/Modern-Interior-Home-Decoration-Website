@@ -30,5 +30,3 @@ The project was built to demonstrate:
 - Frontend - React, Tailwind, React, Framer Motion
 - UI & Styling - Flexbox, CSS Grid, Custom Animations, Responsive Design
 - Fonts & Icons - Google Fonts, Lucid-react Icons 
-
-
